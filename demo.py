@@ -2,7 +2,7 @@ import time
 import cv2
 import torch
 import demo_utils
-import noise_color
+import noise_image
 import numpy as np
 from thop import profile
 from src.loftr import LoFTR, default_cfg

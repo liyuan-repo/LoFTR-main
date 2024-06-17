@@ -26,11 +26,11 @@ def test_image_matching():
 
     # --------------------Additive noise image ------------------
     # output_path = "./output/1DSMsets/pair1+snr0.jpg"
-    # img0 = noise_color.Additive_noise(img0_path, SNR=0)
+    # img0 = noise_image.Additive_noise(img0_path, SNR=0)
 
     # --------------------stripe noise image --------------------
     # output_path = "output/1DSMsets/pair1+0p101S.jpg"
-    # img0 = noise_color.stripe_noise(img0_path, 0.1)
+    # img0 = noise_image.stripe_noise(img0_path, 0.1)
 
     img1 = cv2.imread(img1_path)
     img1 = demo_utils.resize(img1, 512)

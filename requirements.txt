@@ -1,0 +1,14 @@
+torch~=1.10.0+cu102
+ray>=1.0.1
+einops==0.3.0
+kornia~=0.7.1
+yacs>=0.1.8
+matplotlib~=3.7.1
+
+loguru~=0.5.3
+numpy~=1.24.2
+joblib~=1.2.0
+albumentations~=0.5.1
+opencv-python~=4.5.5.62
+h5py~=3.1.0
+scikit-learn~=1.2.2
